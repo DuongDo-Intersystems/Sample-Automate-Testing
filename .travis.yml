@@ -4,4 +4,4 @@ python:
 install:
   - pip install pytest-cov
 script:
-  - pytest --cov=myproj tests/
+  - pytest --cov=Flask tests/
