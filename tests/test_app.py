@@ -1,6 +1,5 @@
 import unittest
-import codecs
-from Flask.app import app
+from FlaskApp.app import app
 
 
 class AppTest(unittest.TestCase):

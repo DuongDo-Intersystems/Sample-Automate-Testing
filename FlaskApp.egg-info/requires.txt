@@ -1,0 +1,6 @@
+Flask
+Flask-Mail
+gunicorn
+pymysql
+pytest-covWTForms
+Flask-WTF

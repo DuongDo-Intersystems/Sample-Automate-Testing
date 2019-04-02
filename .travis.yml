@@ -2,8 +2,6 @@ language: python
 python:
   - "3.6"
 install:
-  - pip install pytest-cov
-  - pip install Flask
-  - pip install Flask-Mail
+  - python setup.py install
 script:
-  - pytest --cov=Flask tests/
+  - pytest --cov=FlaskApp tests/
