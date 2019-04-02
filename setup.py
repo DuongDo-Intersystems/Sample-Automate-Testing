@@ -14,7 +14,7 @@ setup(name='FlaskApp',
           'Flask-Mail',
           'gunicorn',
           'pymysql',
-          'pytest-cov'
+          'pytest-cov',
           'WTForms',
           'Flask-WTF',
       ],
